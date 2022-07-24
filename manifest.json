@@ -1,0 +1,33 @@
+{
+    "manifest_version": 2,
+  
+    "name": "YoutubeSpeedy",
+    "description": "Increase youtube speed",
+    "version": "1.0.0",
+    "default_locale": "en",
+    "homepage_url": "https://github.com/Arhitector/youtubeSpeed",
+    "author": "Arhitector",
+  
+    "icons": {
+      "16": "icon.svg",
+      "32": "icon.svg",
+      "48": "icon.svg",
+      "64": "icon.svg",
+      "128": "icon.svg"
+    },
+  
+    "background": {
+      "scripts": ["script.js"]
+    },
+
+    "browser_action": {
+      "default_icon": "icon.svg",
+      "default_title": "YoutubeSpeedy",
+      "default_popup": "popup.html",
+      "browser_style": true
+    },
+  
+    "permissions": [
+      "storage"
+    ]
+  }
